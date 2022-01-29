@@ -1,0 +1,45 @@
+1.List 5 difference between Browser JS(console) v Nodejs?
+Ans:
+Brower JS(console)
+  a.window is a predefined global object which has functions and attributes that have to deal with window that has been drawn.
+  b.location is another predefined object in browsers that has all the information about the url we have loaded.
+  c.document which is also another predefined global variable in browsers has the html which is rendered.
+  d.Browsers may have an object named global but it will be the exact one as window.
+  e.Browsers don’t have require predefined. You may include it in your app for asynchronous file loading.
+
+Nodejs
+  a.Node doesn’t have a predefined window object cause it doesn’t have a window to draw anything.
+  b.location object is related to a particular url that means it is for page specific. So, node doesn’t require that.
+  c.Of course Node doesn’t have document object also cause it never have to render anything in a page.
+  d.Node has global which is a predefined global object. It contains several functions that are not available in browsers, cause they are needed for server side works     only.
+  e.require object is predefined in Node which is used to include modules in the app.
+
+2.Watch & summary 5 points?
+Ans:
+  a.The browser use 90% og interaction with the computer, like we had text editor or browser opening.
+  b.High level flow HTML parse,css parse than combined to (Render,Layout & Panit).
+  c.A lot of mistakes will be still work of that,that means passing isn't straightforward,in most languages make mistake other than error,HTML will try to recover.
+  d.Paring flow that will create the parse tree,that will than create the DOM tree which we all interact with javascript. 
+  e.The DOM node,converted to a render object or the render object has a reference the DOM node.
+  
+
+3.Execute the below code and write your description in txt file?
+a.typeof(1)
+b.typeof(1.1)
+c.typeof('1.1')
+d.typeof(true)
+e.typeof(null)
+f.typeof(undefined)
+g.typeof([])
+h.typeof({})
+i.typeof(NaN)
+Ans:
+  a.Number
+  b.Number
+  c.String
+  d.Boolean
+  e.object
+  f.undefined
+  g.object
+  h.object
+  i.Number
