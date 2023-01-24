@@ -1,0 +1,12 @@
+# Day-2
+1.write a blog to differentiate between document and window object?
+Ans:-
+Document
+    a.It is loaded inside the window.
+    b.It is the object of window property.
+    c. The document object represents the HTML document loaded in that window. 
+    
+Window
+     a.It is the very first object that is loaded in the browser.
+     b.It is the object of the browser.
+     c.The window object represents the browser window.
